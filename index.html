@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela Náutica Dr. Anselmo Hammer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#f8fafc] text-slate-800 antialiased font-sans selection:bg-cyan-500 selection:text-white overflow-x-hidden">
+
+    <a href="https://wa.me/56978782559" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-[100] bg-[#25D366] text-white p-4 rounded-full shadow-[0_10px_30px_rgba(37,211,102,0.4)] hover:scale-110 hover:-translate-y-2 transition-all duration-300 group flex items-center justify-center">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.422-.272.347-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        <span class="absolute right-16 bg-white text-slate-800 px-4 py-2 rounded-xl text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md border border-slate-100">¿Necesitas ayuda?</span>
+    </a>
+
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 transition-all duration-300 shadow-sm py-2">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <img src="img/logo.png" alt="Logo Escuela Náutica" class="h-12 w-auto drop-shadow-md">
+                
+                <div class="hidden md:block">
+                    <h1 class="font-extrabold text-slate-900 leading-tight tracking-tight text-lg">Escuela Náutica Dr. Anselmo Hammer</h1>
+                    <p class="text-[10px] text-cyan-600 uppercase tracking-[0.2em] font-bold">Acreditada por DIRECTEMAR</p>
+                </div>
+            </div>
+            <a href="#matricula" class="px-6 py-2.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold tracking-wider uppercase text-xs transition-colors shadow-md">
+                Matricularse
+            </a>
+        </div>
+    </header>
+
+    <section class="relative w-full h-[95vh] min-h-[750px] flex flex-col justify-center pt-20 bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0284c7] overflow-hidden">
+        
+        <div class="relative z-10 max-w-6xl mx-auto px-6 text-center pb-40">
+            <span class="inline-block py-2 px-6 rounded-full bg-white/10 border border-white/30 text-xs md:text-sm font-bold tracking-widest uppercase mb-8 text-cyan-300 shadow-sm backdrop-blur-sm">
+                Resolución DIRECTEMAR N° 12.400/103
+            </span>
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 drop-shadow-xl leading-[1.05] tracking-tighter text-white">
+                APRENDE A NAVEGAR <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-white">CON LOS EXPERTOS</span>
+            </h1>
+            <p class="text-lg md:text-2xl font-medium text-blue-100 max-w-3xl mx-auto mb-12 drop-shadow-md">
+                Curso teórico y práctico conducente a la obtención de la licencia de 
+                <strong class="font-bold text-white">Patrón Deportivo de Bahía o Lancha</strong>.
+            </p>
+            
+            <div class="bg-white/10 backdrop-blur-md border border-white/30 rounded-[2rem] p-8 max-w-lg mx-auto shadow-[0_20px_40px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-transform duration-300">
+                <p class="text-cyan-300 font-bold uppercase tracking-[0.2em] mb-2 text-xs">Próximo Curso</p>
+                <p class="text-3xl md:text-4xl font-black tracking-tight text-white mb-2">Lunes 1 de Junio del 2026</p>
+                <p class="text-blue-100 font-medium text-sm">Inicio a las 20:00 Hrs.</p>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 w-full z-20">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(248, 250, 252, 0.4)" /> 
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(248, 250, 252, 0.6)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(248, 250, 252, 0.8)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#f8fafc" />
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <main class="w-full bg-[#f8fafc] relative z-10 pt-10 pb-24">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <section class="mb-24">
+                <div class="glass-solid border border-slate-200 rounded-[2rem] p-10">
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h2 class="text-3xl font-extrabold text-slate-900 mb-4 tracking-tight">Aspectos Reglamentarios</h2>
+                            <p class="text-slate-600 leading-relaxed mb-6">
+                                Le corresponde a la <strong>Armada de Chile</strong>, a través de la Dirección General del Territorio Marítimo y de Marina Mercante, la regulación y control de la actividad náutica deportiva, a través del Reglamento General de Deportes Náuticos, aprobado por D.S.(M) N°214 del 25 de marzo de 2015.
+                            </p>
+                        </div>
+                        <div class="bg-blue-50 border border-blue-100 rounded-2xl p-8 shadow-inner">
+                            <h3 class="text-xl font-bold text-slate-900 mb-4">Licencia Deportiva Náutica</h3>
+                            <p class="text-sm text-slate-600 mb-6">Documento mediante el cual la Autoridad Marítima otorga autorización para operar una embarcación deportiva, a una persona natural.</p>
+                            <div class="flex flex-col gap-3">
+                                <div class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                                    <span class="w-6 h-6 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-xs">✓</span> 
+                                    <span class="font-bold text-slate-800">Patrón de Lancha Deportiva de Bahía</span>
+                                </div>
+                                <div class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                                    <span class="w-6 h-6 rounded-full bg-cyan-100 flex items-center justify-center text-cyan-600 font-bold text-xs">✓</span> 
+                                    <span class="font-bold text-slate-800">Patrón Deportivo de Bahía</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-24">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-10">
+                    <div>
+                        <h2 class="text-4xl font-extrabold text-slate-900 mb-2 tracking-tight">Estructura del Curso</h2>
+                        <p class="text-slate-500 text-lg">Navegación al mando de todo tipo de embarcaciones en aguas protegidas.</p>
+                    </div>
+                    <div class="mt-4 md:mt-0 text-right bg-white px-5 py-3 rounded-xl border border-slate-200 shadow-sm text-sm">
+                        <span class="font-bold text-slate-900 uppercase tracking-wider text-xs">Duración:</span> 
+                        <span class="text-slate-600 ml-3">Bahía: <strong class="text-blue-600">24 hrs</strong> | Lancha: <strong class="text-blue-600">20 hrs</strong></span>
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <div class="glass-solid border border-slate-200 rounded-[2rem] p-8 relative overflow-hidden group hover:-translate-y-1 transition-transform">
+                        <div class="absolute top-0 right-0 bg-blue-100 text-blue-700 font-bold px-4 py-2 rounded-bl-xl text-xs uppercase tracking-wider">Vía Zoom</div>
+                        <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center text-xl font-black text-white mb-6 shadow-md shadow-blue-500/30">01</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Módulo Teórico</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6">Inicio: 20:00 Hrs</p>
+                        <ul class="space-y-4 text-slate-600 text-sm font-medium mb-8">
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Nomenclatura básica</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Reglamentación de patrón de bahía</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Meteorología básica</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Navegación a vela y motor, Motores marinos</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Primeros auxilios</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Resolución de banco de preguntas</li>
+                        </ul>
+                        <div class="bg-slate-100 p-4 rounded-xl text-xs text-slate-700 font-bold border border-slate-200">
+                            📍 <strong>Examen Teórico:</strong> Presencial en la Nao, Ministro Carvajal 28.
+                        </div>
+                    </div>
+
+                    <div class="glass-solid border border-slate-200 rounded-[2rem] p-8 relative overflow-hidden group hover:-translate-y-1 transition-transform">
+                        <div class="absolute top-0 right-0 bg-cyan-100 text-cyan-700 font-bold px-4 py-2 rounded-bl-xl text-xs uppercase tracking-wider">Terreno</div>
+                        <div class="w-14 h-14 bg-cyan-500 rounded-2xl flex items-center justify-center text-xl font-black text-white mb-6 shadow-md shadow-cyan-500/30">02</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Módulo Práctica 1</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6">Sábado o Domingo</p>
+                        <ul class="space-y-4 text-slate-600 text-sm font-medium mb-8">
+                            <li class="flex items-start gap-3"><span class="text-blue-500 mt-0.5">●</span> Nudos marineros</li>
+                            <li class="flex items-start gap-3"><span class="text-blue-500 mt-0.5">●</span> Armado de embarcación</li>
+                            <li class="flex items-start gap-3"><span class="text-blue-500 mt-0.5">●</span> Navegación a vela</li>
+                        </ul>
+                        <div class="mt-auto pt-6 text-xs text-slate-500 italic bg-white/50 p-4 rounded-xl border border-slate-100">
+                            Las clases prácticas se imparten según disponibilidad y/o condiciones meteorológicas.
+                        </div>
+                    </div>
+
+                    <div class="glass-solid border border-slate-200 rounded-[2rem] p-8 relative overflow-hidden group hover:-translate-y-1 transition-transform bg-gradient-to-b from-white to-blue-50">
+                        <div class="absolute top-0 right-0 bg-blue-900 text-white font-bold px-4 py-2 rounded-bl-xl text-xs uppercase tracking-wider">Quintero</div>
+                        <div class="w-14 h-14 bg-blue-900 rounded-2xl flex items-center justify-center text-xl font-black text-white mb-6 shadow-md shadow-blue-900/30">03</div>
+                        <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Módulo Práctica 2</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6">Cendyr Náutico</p>
+                        <ul class="space-y-4 text-slate-600 text-sm font-medium mb-8">
+                            <li class="flex items-start gap-3"><span class="text-blue-600 mt-0.5">●</span> Navegación a vela y motor</li>
+                            <li class="flex items-start gap-3 text-slate-900 font-bold"><span class="text-blue-600 mt-0.5">●</span> Examen práctico ese mismo día</li>
+                        </ul>
+                        <div class="bg-blue-600 p-5 rounded-xl text-xs text-white leading-relaxed shadow-md font-medium">
+                            Cabe indicar que el carnet de Patrón de Bahía comenzará a ser tramitado una vez se conozcan los resultados del examen práctico.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-24 rounded-[2.5rem] overflow-hidden shadow-2xl border border-slate-200">
+                <div class="grid lg:grid-cols-2">
+                    <div class="p-10 md:p-14 bg-white border-b lg:border-b-0 lg:border-r border-slate-200">
+                        <h2 class="text-3xl font-extrabold mb-8 text-slate-900 tracking-tight">Requisitos Generales</h2>
+                        <ul class="space-y-5 text-slate-600 font-medium text-sm md:text-base">
+                            <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Mayor de 14 años.</li>
+                            <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Cumplir requisitos estipulados en el Reglamento General.</li>
+                            <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Aprobar los exámenes que fija el Reglamento.</li>
+                            <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Certificado de salud compatible.</li>
+                            <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Autorización notarial de padres o guardador (para menores).</li>
+                        </ul>
+                        <button class="mt-10 border-2 border-slate-200 bg-white hover:bg-slate-50 text-slate-800 px-8 py-4 rounded-xl text-sm font-bold tracking-wider uppercase transition-all w-full md:w-auto shadow-sm">
+                            Bajar Formulario
+                        </button>
+                    </div>
+                    
+                    <div class="p-10 md:p-14 bg-slate-900 text-white relative">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl"></div>
+                        <h2 class="text-3xl font-extrabold mb-8 text-white tracking-tight relative z-10">Materias de Examen</h2>
+                        <div class="grid grid-cols-2 gap-8 relative z-10">
+                            <div>
+                                <h4 class="font-bold text-cyan-400 mb-5 uppercase text-xs tracking-[0.2em] border-b border-slate-700 pb-3">Teórico</h4>
+                                <ol class="list-decimal list-inside space-y-3 text-sm text-slate-300 font-medium">
+                                    <li>Náutica y maniobra.</li>
+                                    <li>Navegación básica.</li>
+                                    <li>Seguridad y 1ros auxilios.</li>
+                                    <li>Meteorología básica.</li>
+                                    <li>Reglamentación marítima.</li>
+                                    <li>Operación de motores.</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-cyan-400 mb-5 uppercase text-xs tracking-[0.2em] border-b border-slate-700 pb-3">Práctico</h4>
+                                <ol class="list-decimal list-inside space-y-3 text-sm text-slate-300 font-medium">
+                                    <li>Emergencias (vela y motor).</li>
+                                    <li>Gobierno de embarcación de bahía a vela y motor.</li>
+                                </ol>
+                            </div>
+                        </div>
+                        <button class="relative z-10 mt-12 w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-xl text-sm tracking-wider uppercase font-extrabold transition-all shadow-lg">
+                            Baja Aquí el Manual del Curso
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-24 max-w-5xl mx-auto text-center glass-solid border border-slate-200 rounded-[2.5rem] p-10 md:p-16">
+                <p class="text-blue-600 font-bold tracking-widest uppercase mb-3 text-xs">Quiénes Somos</p>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-8 tracking-tight leading-tight">Escuela Náutica Dr. Anselmo Hammer <br> de la Nao Santiago</h2>
+                
+                <div class="space-y-6 text-slate-600 text-lg font-medium leading-relaxed mb-10 text-left md:text-center">
+                    <p>Nuestra escuela es una institución sin fines de lucro, orientada a la promoción de actividades náuticas en nuestro país, con la participación de profesores expertos en materias de teoría de navegación, seguridad, primeros auxilios, navegación en laguna y mar, operación y mantención de motores náuticos, etc.</p>
+                    
+                    <p>La Escuela Náutica Doctor Anselmo Hammer, de la Nao Santiago, es una institución acreditada por la Dirección del Territorio Marítimo “DIRECTEMAR”, según la Resolución N° 12.400/103 del 21 de noviembre de 1997 y puede dictar cursos y tomar exámenes que son validados ante la autoridad marítima para el otorgamiento de las licencias deportivas náuticas de “Patrón Deportivo de Bahía” y “Patrón de Lancha”.</p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-600 p-8 rounded-r-2xl mt-10 text-left shadow-sm">
+                        <p class="text-slate-800 italic font-semibold">
+                            "Nuestra escuela posee la impronta de ofrecer mucho más que los temas reglamentarios que se exigen. La autoridad marítima y también cada alumno egresado ha reconocido en nuestra institución un lugar de fraternidad y amistad, donde los lazos que nos unen en torno a la navegación son para siempre. Poseemos la cualidad de tener lazos firmes con centros náuticos de la costa central que nos dan las facilidades de practicar este deporte y participar de sus regatas."
+                        </p>
+                    </div>
+                    <p class="text-center font-extrabold text-slate-900 text-xl mt-8">El mar como nuestra fuente de inspiración de vida nos entrega esto y mucho más. ¡Únete a nosotros y se un navegante!</p>
+                </div>
+            </section>
+
+            <section class="mb-24">
+                <div class="text-center mb-10">
+                    <h2 class="text-4xl font-extrabold text-slate-900 mb-3 tracking-tight">Vida Náutica</h2>
+                    <p class="text-slate-500 text-lg">Si quieres conocer mas de la trayectoria de nuestra Escuela revisa nuestra galería.</p>
+                </div>
+                
+                <div class="relative max-w-5xl mx-auto rounded-[2.5rem] overflow-hidden shadow-2xl group bg-white border border-slate-200 p-2">
+                    <div id="carousel-track" class="flex transition-transform duration-500 ease-out rounded-[2rem] overflow-hidden">
+                        
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel1.jpg" alt="Instrucción 1" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                            <div class="absolute bottom-0 w-full p-8 md:p-12">
+                                <span class="px-4 py-1.5 bg-white/20 border border-white/30 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Noviembre 2017</span>
+                                <h3 class="text-2xl md:text-4xl font-bold text-white mb-3 tracking-tight">25 Años de la Escuela Náutica</h3>
+                                <p class="text-sm md:text-lg text-slate-200 max-w-3xl">Cmdte. Base Naval Quinta Normal don Daniel Coca junto al Capitán de la Nao Santiago don Sergio Zalagarda Rowe.</p>
+                            </div>
+                        </div>
+
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel2.jpg" alt="Instrucción 2" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                            <div class="absolute bottom-0 w-full p-8 md:p-12">
+                                <span class="px-4 py-1.5 bg-blue-600/80 border border-blue-400 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Enero 2018</span>
+                                <h3 class="text-2xl md:text-4xl font-bold text-white mb-3 tracking-tight">Familia de Navegantes</h3>
+                                <p class="text-sm md:text-lg text-slate-200 max-w-3xl">Alumnos previo al exámen práctico en el Cendyr Naútico de Quintero.</p>
+                            </div>
+                        </div>
+
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel3.jpg" alt="Instrucción 3" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                            <div class="absolute bottom-0 w-full p-8 md:p-12">
+                                <span class="px-4 py-1.5 bg-cyan-600/80 border border-cyan-400 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Terreno</span>
+                                <h3 class="text-2xl md:text-4xl font-bold text-white mb-3 tracking-tight">Navegación a Vela</h3>
+                                <p class="text-sm md:text-lg text-slate-200 max-w-3xl">Módulos de maniobras y lectura del viento para una navegación segura.</p>
+                            </div>
+                        </div>
+
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel4.jpg" alt="Instrucción 4" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                        </div>
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel5.jpg" alt="Instrucción 5" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                        </div>
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel6.jpg" alt="Instrucción 6" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                        </div>
+                        <div class="min-w-full relative h-[400px] md:h-[550px]">
+                            <img src="img/carrusel7.jpg" alt="Instrucción 7" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
+                        </div>
+                    </div>
+
+                    <button id="btn-prev" class="absolute left-6 top-1/2 -translate-y-1/2 w-14 h-14 bg-white/20 hover:bg-white/40 border border-white/50 backdrop-blur-md rounded-full flex items-center justify-center text-white transition-all shadow-lg z-10">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+                    <button id="btn-next" class="absolute right-6 top-1/2 -translate-y-1/2 w-14 h-14 bg-white/20 hover:bg-white/40 border border-white/50 backdrop-blur-md rounded-full flex items-center justify-center text-white transition-all shadow-lg z-10">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                    
+                    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 bg-slate-900/40 px-5 py-3 rounded-full backdrop-blur-md z-10" id="carousel-dots">
+                        <button class="dot w-3 h-3 rounded-full bg-white transition-all scale-125 shadow-md" data-index="0"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="1"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="2"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="3"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="4"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="5"></button>
+                        <button class="dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/80 transition-all" data-index="6"></button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <section id="matricula" class="py-24 relative overflow-hidden bg-blue-600 border-t border-blue-700">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1506146059276-fdd2855b57f0?q=80&w=2070&auto=format&fit=crop')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
+        <div class="max-w-xl mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">¡Inscríbete y zarpa!</h2>
+            <p class="text-lg text-blue-100 mb-12 font-medium">Hacia un emocionante futuro marino. Curso Lunes 1 de Junio del 2026</p>
+            
+            <form class="bg-white rounded-[2rem] p-8 md:p-12 shadow-2xl text-left relative overflow-hidden group">
+                <div class="relative z-10 space-y-6">
+                    <div>
+                        <label class="block font-bold text-sm mb-2 text-slate-700">Nombre Completo</label>
+                        <input type="text" class="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all" required>
+                    </div>
+                    <div>
+                        <label class="block font-bold text-sm mb-2 text-slate-700">Correo Electrónico</label>
+                        <input type="email" class="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all" required>
+                    </div>
+                    <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-extrabold py-4 rounded-xl text-lg transition-all transform hover:-translate-y-1 shadow-xl mt-4">
+                        ENVIAR MATRÍCULA
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 pt-16 pb-8 text-slate-400 text-sm">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-start mb-12">
+            
+            <div class="space-y-4 font-medium">
+                <p class="text-white font-bold mb-6 text-xl">Ubicación y Sedes</p>
+                <p class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-cyan-400">💻</span> <strong class="text-slate-300">Teoría:</strong> Vía Zoom (Online).</p>
+                <p class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-cyan-400">📝</span> <strong class="text-slate-300">Sede/Examen:</strong> Ministro Carvajal 28, Providencia.</p>
+                <p class="flex items-center gap-3"><span class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-cyan-400">🌊</span> <strong class="text-slate-300">Prácticas:</strong> Cendyr Náutico Quintero.</p>
+            </div>
+            
+            <div class="w-full h-64 bg-slate-800 rounded-2xl overflow-hidden shadow-lg border border-slate-700">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.130985227318!2d-70.62725518480095!3d-33.43573298077583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf7dbdfbfed1%3A0x633d7b8d4f40f0d2!2sMinistro%20Carvajal%2028%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1714000000000!5m2!1ses!2scl" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-6 border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <img src="img/logo.png" alt="Logo" class="h-8 w-auto grayscale opacity-50">
+                <p class="text-slate-500 font-medium">© 2026 Escuela Náutica Dr. Anselmo Hammer.</p>
+            </div>
+            <p>Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
