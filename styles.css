@@ -80,3 +80,11 @@ body {
 #carousel-track > div {
     min-width: 100%;
 }
+
+/* Corrección para que las olas no parezcan montañas en móviles */
+@media (max-width: 768px) {
+    .waves {
+        height: 80px; /* Reducimos la altura en móviles */
+        min-height: 60px;
+    }
+}
