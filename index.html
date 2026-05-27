@@ -15,29 +15,30 @@
         <span class="absolute right-16 bg-white text-slate-800 px-4 py-2 rounded-xl text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md border border-slate-100">¿Necesitas ayuda?</span>
     </a>
 
-    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 transition-all duration-300 shadow-sm py-2">
-        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
-            <div class="flex items-center gap-4">
-                <img src="img/logo.png" alt="Logo Escuela Náutica" class="h-12 w-auto drop-shadow-md">
-                
-                <div class="hidden md:block">
-                    <h1 class="font-extrabold text-slate-900 leading-tight tracking-tight text-lg">Escuela Náutica Dr. Anselmo Hammer</h1>
-                    <p class="text-[10px] text-cyan-600 uppercase tracking-[0.2em] font-bold">Acreditada por DIRECTEMAR</p>
-                </div>
+ <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 transition-all duration-300 shadow-sm py-2">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+        <div class="flex items-center gap-6">
+            <img src="img/logo.png" alt="Logo Escuela Náutica" class="h-16 w-auto drop-shadow-md">
+            
+            <div class="hidden md:block">
+                <h1 class="text-xl font-black text-slate-900 uppercase tracking-tight leading-tight">Escuela Náutica Dr. Anselmo Hammer</h1>
+                <p class="text-[17px] text-cyan-600 uppercase tracking-[0.25em] font-bold mt-0.5">Acreditada por DIRECTEMAR</p>
             </div>
-            <a href="#matricula" class="px-6 py-2.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold tracking-wider uppercase text-xs transition-colors shadow-md">
-                Matricularse
-            </a>
         </div>
-    </header>
+        
+        <a href="#matricula" class="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold tracking-wider uppercase text-xs transition-colors shadow-md">
+            Matricularse
+        </a>
+    </div>
+</header>
 
-    <section class="relative w-full h-[95vh] min-h-[750px] flex flex-col justify-center pt-20 bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0284c7] overflow-hidden">
+    <section class="relative w-full h-[95vh] min-h-[750px] flex flex-col justify-center pt-20 bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(2, 132, 199, 0.8)), url('img/fondo.jpg');">
         
         <div class="relative z-10 max-w-6xl mx-auto px-6 text-center pb-40">
-            <span class="inline-block py-1.5 px-4 rounded-full bg-white/10 border border-white/30 text-[10px] sm:text-xs font-bold tracking-widest uppercase mb-6 text-cyan-300 shadow-sm backdrop-blur-sm text-center">
+            <span class="inline-block py-2 px-6 rounded-full bg-white/10 border border-white/30 text-xs md:text-sm font-bold tracking-widest uppercase mb-8 text-cyan-300 shadow-sm backdrop-blur-sm">
                 Resolución DIRECTEMAR N° 12.400/103
             </span>
-            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 drop-shadow-xl leading-[1.05] tracking-tighter text-white">
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black mb-6 drop-shadow-xl leading-[1.05] tracking-tighter text-white">
                 APRENDE A NAVEGAR <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-white">CON LOS EXPERTOS</span>
             </h1>
             <p class="text-lg md:text-2xl font-medium text-blue-100 max-w-3xl mx-auto mb-12 drop-shadow-md">
@@ -53,12 +54,12 @@
         </div>
 
         <div class="absolute bottom-0 w-full z-20">
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                 <defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /></defs>
                 <g class="parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(248, 250, 252, 0.7)" /> 
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(248, 250, 252, 0.5)" />
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(248, 250, 252, 0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(248, 250, 252, 0.4)" /> 
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(248, 250, 252, 0.6)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(248, 250, 252, 0.8)" />
                     <use xlink:href="#gentle-wave" x="48" y="7" fill="#f8fafc" />
                 </g>
             </svg>
@@ -113,13 +114,18 @@
                         <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center text-xl font-black text-white mb-6 shadow-md shadow-blue-500/30">01</div>
                         <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Módulo Teórico</h3>
                         <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6">Inicio: 20:00 Hrs</p>
-                        <ul class="space-y-4 text-slate-600 text-sm font-medium mb-8">
-                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Nomenclatura básica</li>
-                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Reglamentación de patrón de bahía</li>
+                        <ul class="space-y-3 text-slate-600 text-sm font-medium mb-8">
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Introducción al curso PDB</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Reglamentación marítima</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Reglas de Navegación</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Nomenclatura y navegación a vela</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Navegación segura</li>
                             <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Meteorología básica</li>
-                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Navegación a vela y motor, Motores marinos</li>
                             <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Primeros auxilios</li>
-                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Resolución de banco de preguntas</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Emergencia a bordo</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Operación de motores marinos</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Práctica de Nudos marineros</li>
+                            <li class="flex items-start gap-3"><span class="text-cyan-500 mt-0.5">●</span> Prueba ONLINE directemar</li>
                         </ul>
                         <div class="bg-slate-100 p-4 rounded-xl text-xs text-slate-700 font-bold border border-slate-200">
                             📍 <strong>Examen Teórico:</strong> Presencial en la Nao, Ministro Carvajal 28.
@@ -151,7 +157,7 @@
                             <li class="flex items-start gap-3 text-slate-900 font-bold"><span class="text-blue-600 mt-0.5">●</span> Examen práctico ese mismo día</li>
                         </ul>
                         <div class="bg-blue-600 p-5 rounded-xl text-xs text-white leading-relaxed shadow-md font-medium">
-                            Cabe indicar que el carnet de Patrón de Bahía comenzará a ser tramitado una vez se conozcan los resultados del examen práctico.
+                            Cabe indicar que la licencia de Patrón de Bahía comenzará a ser tramitado una vez se conozcan los resultados del examen práctico y sea aprobado por DIRECTEMAR.
                         </div>
                     </div>
                 </div>
@@ -168,9 +174,19 @@
                             <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Certificado de salud compatible.</li>
                             <li class="flex items-center gap-4"><div class="w-2.5 h-2.5 bg-blue-500 rounded-full shadow-sm"></div> Autorización notarial de padres o guardador (para menores).</li>
                         </ul>
-                        <button class="mt-10 border-2 border-slate-200 bg-white hover:bg-slate-50 text-slate-800 px-8 py-4 rounded-xl text-sm font-bold tracking-wider uppercase transition-all w-full md:w-auto shadow-sm">
-                            Bajar Formulario
-                        </button>
+                        
+                        <div class="mt-10 flex flex-col gap-4">
+                            <a href="docs/licenciadeportiva.pdf" target="_blank" class="border-2 border-blue-600 bg-blue-50 hover:bg-blue-100 text-blue-800 px-6 py-4 rounded-xl text-sm font-bold tracking-wider uppercase transition-all w-full text-center shadow-sm flex items-center justify-center gap-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                Solicitud de Licencia
+                            </a>
+                            
+                            <a href="docs/certificado_de_examen_m__dico_para_deportistas_n__uticos.pdf" target="_blank" class="border-2 border-slate-200 bg-white hover:bg-slate-50 text-slate-800 px-6 py-4 rounded-xl text-sm font-bold tracking-wider uppercase transition-all w-full text-center shadow-sm flex items-center justify-center gap-3">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                Certificado Médico
+                            </a>
+                        </div>
+
                     </div>
                     
                     <div class="p-10 md:p-14 bg-slate-900 text-white relative">
@@ -196,9 +212,12 @@
                                 </ol>
                             </div>
                         </div>
-                        <button class="relative z-10 mt-12 w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-xl text-sm tracking-wider uppercase font-extrabold transition-all shadow-lg">
+                        
+                        <a href="docs/02-Manual-Curso-PLDB-v2-Revisado-Nov-2020.pdf " target="_blank" class="relative z-10 mt-12 w-full bg-blue-600 hover:bg-blue-500 text-white px-6 py-4 rounded-xl text-sm tracking-wider uppercase font-extrabold transition-all shadow-lg flex items-center justify-center gap-3">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
                             Baja Aquí el Manual del Curso
-                        </button>
+                        </a>
+
                     </div>
                 </div>
             </section>
@@ -231,7 +250,7 @@
                     <div id="carousel-track" class="flex transition-transform duration-500 ease-out rounded-[2rem] overflow-hidden">
                         
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel1.jpg" alt="Instrucción 1" class="w-full h-full object-cover">
+                            <img src="img/carrusel1.jpeg" alt="Instrucción 1" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                             <div class="absolute bottom-0 w-full p-8 md:p-12">
                                 <span class="px-4 py-1.5 bg-white/20 border border-white/30 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Noviembre 2017</span>
@@ -241,7 +260,7 @@
                         </div>
 
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel2.jpg" alt="Instrucción 2" class="w-full h-full object-cover">
+                            <img src="img/carrusel2.jpeg" alt="Instrucción 2" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                             <div class="absolute bottom-0 w-full p-8 md:p-12">
                                 <span class="px-4 py-1.5 bg-blue-600/80 border border-blue-400 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Enero 2018</span>
@@ -251,7 +270,7 @@
                         </div>
 
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel3.jpg" alt="Instrucción 3" class="w-full h-full object-cover">
+                            <img src="img/carrusel3.jpeg" alt="Instrucción 3" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                             <div class="absolute bottom-0 w-full p-8 md:p-12">
                                 <span class="px-4 py-1.5 bg-cyan-600/80 border border-cyan-400 text-white rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block backdrop-blur-md">Terreno</span>
@@ -261,19 +280,19 @@
                         </div>
 
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel4.jpg" alt="Instrucción 4" class="w-full h-full object-cover">
+                            <img src="img/carrusel4.jpeg" alt="Instrucción 4" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                         </div>
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel5.jpg" alt="Instrucción 5" class="w-full h-full object-cover">
+                            <img src="img/carrusel5.jpeg" alt="Instrucción 5" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                         </div>
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel6.jpg" alt="Instrucción 6" class="w-full h-full object-cover">
+                            <img src="img/carrusel6.jpeg" alt="Instrucción 6" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                         </div>
                         <div class="min-w-full relative h-[400px] md:h-[550px]">
-                            <img src="img/carrusel7.jpg" alt="Instrucción 7" class="w-full h-full object-cover">
+                            <img src="img/carrusel7.jpeg" alt="Instrucción 7" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/50 to-transparent"></div>
                         </div>
                     </div>
@@ -300,29 +319,126 @@
         </div>
     </main>
 
-    <section id="matricula" class="py-24 relative overflow-hidden bg-blue-600 border-t border-blue-700">
-        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1506146059276-fdd2855b57f0?q=80&w=2070&auto=format&fit=crop')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
-        <div class="max-w-xl mx-auto px-6 relative z-10 text-center">
-            <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">¡Inscríbete y zarpa!</h2>
-            <p class="text-lg text-blue-100 mb-12 font-medium">Hacia un emocionante futuro marino. Curso Lunes 1 de Junio del 2026</p>
+<section id="matricula" class="py-24 relative overflow-hidden bg-slate-900">
+    <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-blue-600 rounded-full blur-[120px] opacity-20"></div>
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-cyan-600 rounded-full blur-[120px] opacity-20"></div>
+
+    <div class="max-w-4xl mx-auto px-6 relative z-10">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-black text-white mb-4 tracking-tighter italic">¿LISTO PARA ZARPAR?</h2>
+            <p class="text-slate-400 font-medium uppercase tracking-widest text-sm">Selecciona el tipo de solicitud</p>
+        </div>
+
+        <div class="flex bg-slate-800/50 backdrop-blur-md p-1.5 rounded-2xl mb-10 border border-slate-700/50 shadow-xl">
+            <button onclick="switchTab('matricula')" id="tab-matricula" class="flex-1 py-4 text-sm font-bold rounded-xl transition-all duration-300 bg-blue-600 text-white shadow-lg shadow-blue-900/20">
+                FORMULARIO MATRÍCULA
+            </button>
+            <button onclick="switchTab('contacto')" id="tab-contacto" class="flex-1 py-4 text-sm font-bold rounded-xl transition-all duration-300 text-slate-400 hover:text-white">
+                CONSULTA RÁPIDA
+            </button>
+        </div>
+
+        <div class="relative min-h-[600px]">
             
-            <form class="bg-white rounded-[2rem] p-8 md:p-12 shadow-2xl text-left relative overflow-hidden group">
-                <div class="relative z-10 space-y-6">
-                    <div>
-                        <label class="block font-bold text-sm mb-2 text-slate-700">Nombre Completo</label>
-                        <input type="text" class="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all" required>
+            <form id="form-matricula" action="https://formspree.io/f/mredoqod" method="POST" class="bg-white rounded-[2.5rem] p-8 md:p-12 shadow-2xl transition-all duration-500">
+                
+                <input type="hidden" name="_subject" value="Nueva Matrícula - Escuela Náutica">
+                <input type="hidden" name="_format" value="plain">
+                <input type="hidden" name="_gotcha" value="">
+
+                <div class="space-y-8">
+                    <div class="grid md:grid-cols-2 gap-8 border-b border-slate-100 pb-8">
+                        <div>
+                            <label class="block font-black text-slate-800 text-xs uppercase tracking-widest mb-4">Trámite*</label>
+                            <div class="flex gap-4">
+                                <label class="flex-1 cursor-pointer">
+                                    <input type="radio" name="tramite" value="Nueva" class="peer hidden" checked>
+                                    <div class="text-center p-3 rounded-xl border-2 border-slate-100 peer-checked:border-blue-600 peer-checked:bg-blue-50 text-slate-500 peer-checked:text-blue-700 font-bold transition-all">Nueva</div>
+                                </label>
+                                <label class="flex-1 cursor-pointer">
+                                    <input type="radio" name="tramite" value="Renovar" class="peer hidden">
+                                    <div class="text-center p-3 rounded-xl border-2 border-slate-100 peer-checked:border-blue-600 peer-checked:bg-blue-50 text-slate-500 peer-checked:text-blue-700 font-bold transition-all">Renovar</div>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block font-black text-slate-800 text-xs uppercase tracking-widest mb-4">Licencia*</label>
+                            <div class="flex gap-4">
+                                <label class="flex-1 cursor-pointer">
+                                    <input type="radio" name="tipo_licencia" value="Patron Bahia" class="peer hidden" checked>
+                                    <div class="text-center p-3 rounded-xl border-2 border-slate-100 peer-checked:border-cyan-600 peer-checked:bg-cyan-50 text-slate-500 peer-checked:text-cyan-700 font-bold transition-all leading-tight text-xs flex items-center justify-center h-full">Patrón Bahía</div>
+                                </label>
+                                <label class="flex-1 cursor-pointer">
+                                    <input type="radio" name="tipo_licencia" value="Patron Lancha" class="peer hidden">
+                                    <div class="text-center p-3 rounded-xl border-2 border-slate-100 peer-checked:border-cyan-600 peer-checked:bg-cyan-50 text-slate-500 peer-checked:text-cyan-700 font-bold transition-all leading-tight text-xs flex items-center justify-center h-full">Patrón Lancha</div>
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label class="block font-bold text-sm mb-2 text-slate-700">Correo Electrónico</label>
-                        <input type="email" class="w-full bg-slate-50 border border-slate-200 text-slate-900 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600 transition-all" required>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="md:col-span-2">
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Nombre Completo*</label>
+                            <input type="text" name="nombre_alumno" placeholder="Ej: Juan Alberto Pérez Soto" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
+                        <div>
+                            <label class="block font-bold text-slate-700 text-sm mb-2">RUT*</label>
+                            <input type="text" name="rut" placeholder="12.345.678-9" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
+                        <div>
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Fecha de Nacimiento*</label>
+                            <input type="date" name="fecha_nacimiento" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all text-slate-500" required>
+                        </div>
+                        <div class="md:col-span-2">
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Dirección Particular*</label>
+                            <input type="text" name="direccion" placeholder="Calle, número, departamento" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
+                        <div>
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Ciudad*</label>
+                            <input type="text" name="ciudad" placeholder="Ej: Metropolitana" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
+                        <div>
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Celular*</label>
+                            <input type="tel" name="celular" placeholder="+56 9 1234 5678" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
+                        <div class="md:col-span-2 border-t pt-4">
+                            <label class="block font-bold text-slate-700 text-sm mb-2">Correo Electrónico*</label>
+                          <input type="email" name="email" placeholder="tu@email.com" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 focus:ring-2 focus:ring-blue-600 outline-none transition-all" required>
+                        </div>
                     </div>
-                    <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-extrabold py-4 rounded-xl text-lg transition-all transform hover:-translate-y-1 shadow-xl mt-4">
-                        ENVIAR MATRÍCULA
+
+                    <p class="text-[10px] text-slate-400 italic mt-4 text-center">(*) Todos los campos son obligatorios y serán tratados en forma confidencial.</p>
+                    
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-black py-5 rounded-2xl text-lg transition-all transform hover:-translate-y-1 shadow-xl uppercase tracking-widest">
+                        FINALIZAR MATRÍCULA
                     </button>
                 </div>
             </form>
+
+     <form id="form-contacto" action="https://formspree.io/f/mredoqod" method="POST" class="hidden bg-white rounded-[2.5rem] p-8 md:p-12 shadow-2xl transition-all duration-500">
+    <input type="hidden" name="_subject" value="Nueva Consulta Web">
+    
+    <div class="space-y-6">
+        <div>
+            <label class="block font-bold text-slate-700 text-sm mb-2">Nombre*</label>
+            <input type="text" name="nombre" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 outline-none" required>
         </div>
-    </section>
+        <div>
+            <label class="block font-bold text-slate-700 text-sm mb-2">Correo Electrónico*</label>
+            <input type="email" name="email" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 outline-none" required>
+        </div>
+        <div>
+            <label class="block font-bold text-slate-700 text-sm mb-2">Mensaje*</label>
+            <textarea name="mensaje" rows="5" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-4 outline-none" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-slate-900 text-white font-black py-5 rounded-2xl text-lg uppercase">ENVIAR</button>
+    </div>
+</form>
+
+        </div>
+    </div>
+</section>
 
     <footer class="bg-slate-900 pt-16 pb-8 text-slate-400 text-sm">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-start mb-12">
